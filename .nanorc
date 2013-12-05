@@ -16,3 +16,7 @@ include "~/.nano/markdown.nanorc"
 include "~/.nano/apache2.nanorc"
 ## Apache config
 include "~/.nano/apacheconf.nanorc"
+## apt soruce list
+include "~/.nano/aptsrclist.nanorc"
+## bash
+include "~/.nano/bash.nanorc"
