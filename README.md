@@ -36,7 +36,7 @@ If you are using a debian based linux distribution then just use _apptitude_
 On a mack I prefer [brew] which is equally easy
 [brew]: http://brew.sh/ "Brew package manager"
 
-   brew install git
+    brew install git
 
 ### Clone the repository
 
@@ -72,4 +72,16 @@ The work _installation_ is a little to harsh for what we are going to do.
 I assume that at this point you have all the files from the repository in the **~/.nano** folder. Now all that is left to do is to create some sym links and we are done.
 
 Included in the files is a **.nanorc** file that we have to provide to _nano_.
+The easiest way to do this is to create a symbolic link. This is easilly done with
 
+    ln -s ~/.nano/.nanorc ~/.nanorc
+
+# Done
+
+This all we need to do. Syntax highlighting should we working now in your nano.
+
+If you have cloned the repository you can keep up-to-date with the highlighting by doing a simple
+
+    git pull
+
+Enjoy.

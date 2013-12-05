@@ -1,0 +1,20 @@
+## nanorc
+include "~/.nano/nanorc.nanorc"
+## Ruby
+include "~/.nano/ruby.nanorc"
+## C/C++
+include "~/.nano/c.nanorc"
+## Python
+include "~/.nano/python.nanorc"
+## CSS
+include "~/.nano/css.nanorc"
+## HTML
+include "~/.nano/html.nanorc"
+## Markdown
+include "~/.nano/markdown.nanorc"
+## Apache2
+include "~/.nano/apache2.nanorc"
+## Apache config
+include "~/.nano/apachecof.nanorc"
+
+
