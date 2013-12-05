@@ -44,8 +44,7 @@ If you have a local installation of _GIT_ then you can simply *clone* the reposi
 
     cd
     mkdir .nano
-    cd .nano/
-    git clone https://github.com/dejanfajfar/nano 
+    git clone https://github.com/dejanfajfar/nanohr.git ~/.nano
 
 Steps explained
 + Navigate to the your home folder
