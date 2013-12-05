@@ -84,3 +84,18 @@ If you have cloned the repository you can keep up-to-date with the highlighting 
     git pull
 
 Enjoy.
+
+
+# Recreating the .nanorc
+
+If you add your own highlighting definitions you will have to update the **.nanorc** file.
+This is one of thos tedious error prone tasks that I want to avoid.
+
+For thie reason I have created a little script that recreates the **.nanorc** file automatically.
+
+Simply run 
+
+    sh update_nanorc.sh
+
+in your **~/.nano** folder.
+
