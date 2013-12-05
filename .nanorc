@@ -15,6 +15,4 @@ include "~/.nano/markdown.nanorc"
 ## Apache2
 include "~/.nano/apache2.nanorc"
 ## Apache config
-include "~/.nano/apachecof.nanorc"
-
-
+include "~/.nano/apacheconf.nanorc"
