@@ -1,4 +1,0 @@
-## Email quoting
-##
-syntax "emailquote"
-color green "^>.*"
