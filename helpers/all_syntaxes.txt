@@ -1,0 +1,161 @@
+../aptsrclist.nanorc
+-> ## syntax highlighting for /etc/apt/sources.list
+syntax "apt/sources.list" "sources\.list(\.old|~)?$"
+------------------
+../bash.nanorc
+-> syntax "bash" "\.sh$" "\.bash$"
+# Some Bash syntax first
+------------------
+../c.nanorc
+-> syntax "c" "\.(c(c|pp|xx)?|C)$" "\.(h(h|pp|xx)?|H)$" "\.ii?$"
+## strings to come last, because syntax highlighting rules will be
+------------------
+../coffee.nanorc
+-> syntax "coffee" "\.coffee$"
+------------------
+../conky.nanorc
+-> syntax "Conky" ".conkyrc$"
+------------------
+../css.nanorc
+-> syntax "css" "\.css$"
+------------------
+../delphi.nanorc
+-> syntax "Delphi Source" "\.pas$"
+------------------
+../desc.nanorc
+-> syntax "use" "(\.|/)desc$"
+------------------
+../dotemacs.nanorc
+-> syntax "dotemacs" "^.emacs$"
+------------------
+../ekghistory.nanorc
+-> syntax "ekghistory" "(\.|/).gg/history"
+------------------
+../fortran.nanorc
+-> syntax "fortran" "\.(f|f90|f95|for)$" 
+------------------
+../gentoo.nanorc
+-> syntax "ebuild" "\.e(build|class)$"
+## Highlight bash related syntax
+syntax "/etc/portage" "\.(keywords|mask|unmask|use)$"
+------------------
+../groff.nanorc
+-> syntax "groff" "\.m[ems]$" "\.rof" "\.tmac$" "^tmac."
+------------------
+../haskell.nanorc
+-> ## Haskell syntax highlighting
+## found here: http://www.wubutu.com/2011/05/syntax-highlighting-nano-ban.html
+syntax "haskell" "\.hs$"
+------------------
+../html.nanorc
+-> syntax "html" "\.html$"
+------------------
+../ini.nanorc
+-> syntax "ini" "\.ini(\.old|~)?$"
+------------------
+../java.nanorc
+-> syntax "java" "\.java$"
+------------------
+../js.nanorc
+-> #syntax "jsfiles" "(\.|/)js$"
+syntax "JavaScript" "\.(js)$"
+------------------
+../lex.nanorc
+-> syntax "lex" "\.(l|lex|flex)$"
+## strings to come last, because syntax highlighting rules will be
+------------------
+../makefile.nanorc
+-> #syntax "makefile" "(m|M)akefile$" "\.mak$"
+#syntax "makefile" "^Makefile\.?"
+syntax "makefile" "(m|M)akefile$" "\.mak$"
+------------------
+../man.nanorc
+-> syntax "man" "\.[1-9]x?$"
+------------------
+../markdown.nanorc
+-> ## http://daringfireball.net/projects/markdown/syntax
+syntax "markdown" "\.txt$" "\.text$" "\.md$" "\.markdown$"
+------------------
+../mcchangelog.nanorc
+-> ## Changelog file syntax
+syntax "changelogs" "ChangeLog*"
+------------------
+../nanorc.nanorc
+-> syntax "nanorc" "\.?nanorc$"
+icolor brightwhite "^[[:space:]]*((un)?set|include|syntax|i?color).*$"
+icolor green "^[[:space:]]*(set|unset|include|syntax)\>"
+------------------
+../nscd.nanorc
+-> syntax "nscd" "nscd.conf$"
+------------------
+../passwd.nanorc
+-> syntax "passwd" "(\.|/)passwd$" "(\.|/)shadow$"
+------------------
+../perl.nanorc
+-> syntax "perl" "\.p[lm]$"
+------------------
+../php.nanorc
+-> syntax "php" "\.php[2345s~]?$"
+------------------
+../po.nanorc
+-> ## *.po file syntax
+syntax "po" "\.po$" "\.pot$"
+------------------
+../pov.nanorc
+-> syntax "pov" "\.(pov|POV|povray|POVRAY)$"
+------------------
+../privoxy.nanorc
+-> syntax "privoxycfg" "(\.|/)privoxy/config$"
+syntax "privoxyaction" "(\.|/).action$"
+#syntax "privoxytemplate" "/etc/privoxy/templates/(\.|/)"
+------------------
+../profile.nanorc
+-> syntax "profiles" "(\.|/)profile$"
+------------------
+../python.nanorc
+-> syntax "python" "\.py$"
+------------------
+../reST.nanorc
+-> syntax "rest" "\.rest$" "\.rst$"
+------------------
+../rsync.nanorc
+-> syntax "rsync" "rsyncd.conf$"
+------------------
+../ruby.nanorc
+-> syntax "ruby" "\.rb$"
+------------------
+../sql.nanorc
+-> syntax "sql" "\.sql$"
+------------------
+../tab.nanorc
+-> syntax "fstab" "(\.|/)tab$"
+------------------
+../tcl.nanorc
+-> syntax "tcl" "\.tcl$"
+------------------
+../tex.nanorc
+-> syntax "tex" "\.tex$"
+------------------
+../todo.nanorc
+-> syntax "todo" "\.todo$"
+------------------
+../urls.nanorc
+-> syntax "urls"
+------------------
+../vhost.nanorc
+-> syntax "vhost" "(\.|/)vhost\.conf"
+------------------
+../xdefaults.nanorc
+-> syntax "Xdefaults" "(\.|/)default.$" "(\.|/)resource.$" "fonts.alias"
+------------------
+../xml.nanorc
+-> syntax "ml" ".*\.([jrs]?html?|xml|sgml?|lhtml|opml|kdevelop|vcproj|glade|xsd|plist|gcs|dtd|dcl)$" "catalog$" "docbook$"
+------------------
+../xorg.nanorc
+-> ## syntax highlighting in xorg.conf
+syntax "xorg" "xorg\.conf$"
+------------------
+../yacc.nanorc
+-> syntax "yacc" "\.y$"
+## strings to come last, because syntax highlighting rules will be
+------------------
