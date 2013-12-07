@@ -10,7 +10,7 @@ syntax "bash" "\.sh$" "\.bash$"
 # Some Bash syntax first
 
 # Control
-color magenta "\<(if|else|for|function|case|esac|in|select|until|while|do|elif|then|set|\.|done|fi)\>"
+color magenta "^(if|else|for|function|case|esac|in|select|until|while|do|elif|then|set|\.|done|fi)"
 
 # Brackets and redirects
 color yellow "[(){}[;|<>]"
