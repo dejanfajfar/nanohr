@@ -7,7 +7,7 @@
 ## by Nikolas Mayr - there is no link yet - do a web search
 
 syntax "todo" "\.todo$"
-color green  "\[√\]"
+color green  "\[d\]"
 color yellow "\[~.*"
 color red    "\[x\]"
 color cyan   "\[B.*"
