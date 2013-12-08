@@ -11,29 +11,29 @@ I do not claim any ownership of the nanorc files. In fact most of them are from 
 
 The reasons why I am starting yet-another-nano repo are:
 + Some of the highlighting colors just don't work for me
-+ I have come accross some languages that are just not featured
++ I have come across some languages that are just not featured
 
 # Usage
 
 I have designed the collection so that it can be used as is without any additional compilation steps.
 
-The only thing thatyou have to do is to close the repository locally and make some sym links.
+The only thing that you have to do is to close the repository locally and make some sym links.
 
 ## Download
 
 ### Get GIT
 
-This is a completelly optional step and can be skiped. 
-But do note that if you skip this then you will not be abble to **clone** the repository, you will still be able to **download** it
+This is a completely optional step and can be skipped. 
+But do note that if you skip this then you will not be able to **clone** the repository, you will still be able to **download** it
 
-Do download and install _GIT_ locally please refere to the git download page [here]
-[here]: http://git-scm.com/downloads "Git scm donwload page"
+Do download and install _GIT_ locally please refer to the git download page [here]
+[here]: http://git-scm.com/downloads "Git scm download page"
 
-If you are using a debian based linux distribution then just use _apptitude_
+If you are using a Debian based Linux distribution then just use _aptitude_
 
     sudo apt-get install git
 
-On a mack I prefer [brew] which is equally easy
+On a Mac I prefer [brew] which is equally easy
 [brew]: http://brew.sh/ "Brew package manager"
 
     brew install git
@@ -71,7 +71,7 @@ The work _installation_ is a little to harsh for what we are going to do.
 I assume that at this point you have all the files from the repository in the **~/.nano** folder. Now all that is left to do is to create some sym links and we are done.
 
 Included in the files is a **.nanorc** file that we have to provide to _nano_.
-The easiest way to do this is to create a symbolic link. This is easilly done with
+The easiest way to do this is to create a symbolic link. This is easily done with
 
     ln -s ~/.nano/.nanorc ~/.nanorc
 
@@ -89,9 +89,9 @@ Enjoy.
 # Recreating the .nanorc
 
 If you add your own highlighting definitions you will have to update the **.nanorc** file.
-This is one of thos tedious error prone tasks that I want to avoid.
+This is one of those tedious error prone tasks that I want to avoid.
 
-For thie reason I have created a little script that recreates the **.nanorc** file automatically.
+For this reason I have created a little script that recreates the **.nanorc** file automatically.
 
 Simply run 
 
