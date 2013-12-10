@@ -1,4 +1,6 @@
-## highlighting for simple todo files where the following ascii art is used:
+##
+## Simple 
+## highlighting for simple todo files where the following ascii art is used
 ## [ ] open
 ## [d] done
 ## [~] in progress
@@ -10,5 +12,7 @@ syntax "todo" "\.todo$"
 color green  "\[d\]"
 color yellow "\[~.*"
 color red    "\[x\]"
-color cyan   "\[B.*"
+color brightred   "\[B.*"
 
+color magenta "#\w*\b"
+color brightblue "@\w*\b"
